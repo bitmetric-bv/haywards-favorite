@@ -1,0 +1,266 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#ccd5da"
+        },
+        "minor": {
+          "color": "#ccd5da"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#ccd5da"
+        },
+        "major": {
+          "color": "#ccd5da"
+        },
+        "minor": {
+          "color": "#ccd5da"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#003049",
+    "othersColor": "#CC9B00",
+    "errorColor": "#CC4000",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#003049",
+          "#19445b",
+          "#32596d",
+          "#d62828",
+          "#da3d3d",
+          "#de5252",
+          "#f77f00",
+          "#f78b19",
+          "#f89832",
+          "#fcbf49",
+          "#fcc55b",
+          "#fccb6d",
+          "#eae2b7",
+          "#ece4be",
+          "#eee7c5"
+        ],
+        "name": "Extended",
+        "translation": "Extended",
+        "propertyValue": "4fmgib",
+        "type": "row",
+        "_id": "5aac0a2dbe1a68155e395fbc"
+      },
+      {
+        "scale": [
+          "#003049",
+          "#D62828",
+          "#F77F00",
+          "#FCBF49",
+          "#EAE2B7"
+        ],
+        "name": "Default",
+        "translation": "Default",
+        "propertyValue": "xozi4",
+        "type": "row",
+        "_id": "5aac0cc1be1a68155e395fc6"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#003049",
+          "#D62828",
+          "#F77F00",
+          "#FCBF49",
+          "#EAE2B7"
+        ],
+        "name": "Default",
+        "_id": "5aac0a2dbe1a68155e395fbd"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#003049",
+        "#19445b",
+        "#32596d",
+        "#4c6e7f",
+        "#668291",
+        "#7f97a4",
+        "#99acb6",
+        "#b2c0c8",
+        "#ccd5da",
+        "#e5eaec"
+      ],
+      "name": "Prussian Blue",
+      "translation": "Prussian Blue",
+      "type": "class",
+      "propertyValue": "wtxeqt",
+      "_id": "5aac0a2dbe1a68155e395fbe"
+    },
+    {
+      "scale": [
+        "#d62828",
+        "#da3d3d",
+        "#de5252",
+        "#e26868",
+        "#e67e7e",
+        "#ea9393",
+        "#eea9a9",
+        "#f2bebe",
+        "#f6d4d4",
+        "#fae9e9"
+      ],
+      "name": "Amaranth Red",
+      "translation": "Amaranth Red",
+      "type": "class",
+      "propertyValue": "rixzl",
+      "_id": "5aac0b5ebe1a68155e395fc4"
+    },
+    {
+      "scale": [
+        "#f77f00",
+        "#f78b19",
+        "#f89832",
+        "#f9a54c",
+        "#fab266",
+        "#fbbf7f",
+        "#fbcb99",
+        "#fcd8b2",
+        "#fde5cc",
+        "#fef2e5"
+      ],
+      "name": "Tennessee Orange",
+      "translation": "Tennessee Orange",
+      "type": "class",
+      "propertyValue": "wfxj2a",
+      "_id": "5aac0b5ebe1a68155e395fc3"
+    },
+    {
+      "scale": [
+        "#fcbf49",
+        "#fcc55b",
+        "#fccb6d",
+        "#fcd27f",
+        "#fdd891",
+        "#fddfa4",
+        "#fde5b6",
+        "#feebc8",
+        "#fef2da",
+        "#fef8ec"
+      ],
+      "name": "Maximum Yellow Red",
+      "translation": "New measure colors description",
+      "type": "class",
+      "propertyValue": "liunba",
+      "_id": "5aac0b5ebe1a68155e395fc2"
+    },
+    {
+      "scale": [
+        "#eae2b7",
+        "#ece4be",
+        "#eee7c5",
+        "#f0eacc",
+        "#f2edd3",
+        "#f4f0db",
+        "#f6f3e2",
+        "#f8f6e9",
+        "#faf9f0",
+        "#fcfcf7"
+      ],
+      "name": "Dutch White",
+      "translation": "Dutch White",
+      "type": "class",
+      "propertyValue": "vo36nr",
+      "_id": "5aac0b5ebe1a68155e395fc1"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#003049",
+    "@SubtitleColor": "#003049",
+    "@TextColor": "#003049",
+    "@FooterColor": "#003049",
+    "@BackgroundColor": "#ffffff",
+    "@AxisMajorColor": "#ccd5da",
+    "@AxisMinorColor": "#ccd5da"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}
